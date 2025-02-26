@@ -129,14 +129,14 @@
 
 /*секция с карточками*/
 
-.lots{
+.lots {
     padding-top: 180px;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
 
-.lots_title{
+.lots_title {
 font-weight: 700;
 font-size: 40px;
 text-transform: uppercase;
@@ -279,7 +279,8 @@ margin: 0px 0px 12px 65px;
     grid-area: logo_circle;
     justify-self: center;
     align-self: center;
-    left:72px; top: 26px ;
+    left:72px; 
+    top: 26px ;
   }
 
 .about_auction {
