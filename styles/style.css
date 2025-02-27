@@ -61,7 +61,12 @@
 .cover {
   display: flex;
   position: relative;
+  background-image: url(/images/cover.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 757px;
 }
+
 
 .overlay {
   position: absolute;
@@ -159,6 +164,9 @@ margin: 0px 0px 12px 65px;
     position: relative;
     width: 334px;
     height: 596px;
+    background-image: url(/images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .card_name1 {
@@ -190,6 +198,9 @@ margin: 0px 0px 12px 65px;
     position: relative;
     width: 334px;
     height: 596px;
+    background-image: url(/images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .card_name2 {
@@ -219,6 +230,9 @@ margin: 0px 0px 12px 65px;
     position: relative;
     width: 334px;
     height: 596px;
+    background-image: url(/images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .card_name3 {
@@ -249,6 +263,7 @@ margin: 0px 0px 12px 65px;
     font-size: 20px;
     font-weight: 400;
     padding: 14px 0px 0px 64px;
+    text-underline-position: under;
 }
 
 /*секция с аукционом*/
