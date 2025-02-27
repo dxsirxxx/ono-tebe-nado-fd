@@ -213,6 +213,7 @@ margin: 0px 0px 12px 65px;
    text-align: start;
    padding: 48px 40px;
    z-index: 2;
+   text-underline-position: under;
 }
 
 .card_description2 {
@@ -245,6 +246,7 @@ margin: 0px 0px 12px 65px;
    text-align: start;
    padding: 48px 40px;
    z-index: 2;
+   text-underline-position: under;
 }
 
 .card_description3 {
