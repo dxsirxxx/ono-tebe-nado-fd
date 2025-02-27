@@ -164,7 +164,7 @@ margin: 0px 0px 12px 65px;
     position: relative;
     width: 334px;
     height: 596px;
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -198,7 +198,7 @@ margin: 0px 0px 12px 65px;
     position: relative;
     width: 334px;
     height: 596px;
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -230,7 +230,7 @@ margin: 0px 0px 12px 65px;
     position: relative;
     width: 334px;
     height: 596px;
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
     background-size: cover;
     background-position: center;
 }
