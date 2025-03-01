@@ -32,8 +32,8 @@ body {
 }
 
 .menu_link_main {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 .menu_active {
@@ -43,6 +43,8 @@ body {
 
 .menu_link {
   color: black;
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 .logo {
@@ -67,8 +69,8 @@ body {
 
 .contacts {
   color: black;
-  text-underline-position: under;
   line-height: 1.4;
+  text-underline-position: under;
 }
 
 /*секция с большой картинкой*/
@@ -185,9 +187,9 @@ body {
 }
 
 .card_text {
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  z-index: 2;
   text-align: start;
 }
 
@@ -229,7 +231,7 @@ body {
   padding: 36px 40px 0px;
 }
 
-.picture{
+.picture {
   padding: 132px 40px 0px;
 }
 
@@ -320,15 +322,10 @@ body {
   flex-direction: column;
   grid-area: menu_footer;
   align-items: center;
-  line-height: 1.19;
-  list-style-type: none;
   align-self: center;
   padding: 40px 0px 0px;
-}
-
-.menu_link {
-  text-decoration: underline;
-  text-underline-position: under;
+  line-height: 1.19;
+  list-style-type: none;
 }
 
 .social {
