@@ -1,10 +1,7 @@
-body {
-  background-color: rgb(209, 209, 209);
-  box-sizing: border-box;
-  margin: auto;
-  min-height: 100vh;
-  font-family: "Raleway", sans-serif;
-  width: 1100px;
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
 }
 
 html {
