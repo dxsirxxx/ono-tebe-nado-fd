@@ -31,11 +31,6 @@ body {
   list-style-type: none;
 }
 
-.menu_link_main {
-  color: black;
-  text-decoration: none;
-}
-
 .menu_active {
   text-underline-position: under;
   list-style-type: circle;
@@ -45,6 +40,10 @@ body {
   color: black;
   text-decoration: underline;
   text-underline-position: under;
+}
+
+.menu_link_main {
+  text-decoration: none;
 }
 
 .logo {
@@ -57,13 +56,10 @@ body {
   text-decoration: none;
 }
 
-.first_address {
+.transfer_address {
   justify-self: end;
   width: 240px;
   padding: 20px 0px 22px;
-}
-
-.text_address {
   line-height: 1.35;
 }
 
@@ -179,18 +175,20 @@ body {
 .card {
   position: relative;
   display: flex;
-  flex-direction: column;
   width: 334px;
   min-height: 596px;
   background-position: center;
   background-size: cover;
+  text-decoration: none;
+  height: 100%;
 }
 
 .card_text {
-  z-index: 2;
   display: flex;
   flex-direction: column;
-  text-align: start;
+  height: 92%;
+  justify-content: space-between;
+  z-index: 2;
 }
 
 .card_name {
@@ -209,30 +207,19 @@ body {
   font-size: 20px;
   line-height: 24px;
   text-transform: inherit;
+  padding: 0px 40px;
 }
 
-.first_card {
+.film_card {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.second_card {
+.book_card {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.third_card {
+.picture_card {
   background-image: url(../images/card-lot-03.jpg);
-}
-
-.film {
-  padding: 278px 40px 0px;
-}
-
-.book {
-  padding: 36px 40px 0px;
-}
-
-.picture {
-  padding: 132px 40px 0px;
 }
 
 .lots_more {
@@ -258,7 +245,6 @@ body {
   ". about_auction about_auction"
   ". about_auction about_auction";
   width: 1100px;
-  min-height: 529px;
   padding: 128px 0px 137px 0px;
   background-color: #ffffff;
 }
@@ -301,7 +287,7 @@ body {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(1, 1fr);
   grid-template-areas: 
-  "second_address second_address menu_footer social social";
+  "no_transfer_address no_transfer_address menu_footer social social";
   padding: 0px 0px 78px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
@@ -309,15 +295,15 @@ body {
   background-color: #ffffff;
 }
 
-.second_address {
-  grid-area: second_address;
+.no_transfer_address {
+  grid-area: no_transfer_address;
   padding: 40px 0px 0px 51px;
   font-style: normal;
   line-height: 1.4;
   text-decoration: none;
 }
 
-.menu_second_block {
+.menu_column_block {
   display: flex;
   flex-direction: column;
   grid-area: menu_footer;
